@@ -1,6 +1,6 @@
 # **Uladzislau Harbadzei**
 
-![](assets/image.jpg)
+![](https://github.com/Uladzislau-Harbadzei/rsschool-cv/blob/gh-pages/image.jpg)
 
 * *Date of birth:08/26/1990*
 * *Address:Viciebsk, Belarus*
