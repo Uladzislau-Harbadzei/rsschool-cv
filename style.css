@@ -1,15 +1,9 @@
-@font-face {
-    font-family: Roboto;
-    src: url("assets/fonts/Roboto.ttf");
-  }
-  * {
-    box-sizing: border-box;
-  }
-  *{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+body {
+  font-size: 14px;
+}
