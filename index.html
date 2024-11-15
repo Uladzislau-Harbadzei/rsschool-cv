@@ -2,6 +2,20 @@
 <html>
 <head>
 <title>newtitle</title>
+  <style>
+   p {
+    font-size: 130%; /* Размер текста */ 
+   }
+   q:lang(de) {
+    quotes: "\201E" "\201C"; /* Вид кавычек для немецкого языка */ 
+   }
+   q:lang(en) {
+    quotes: "\201C" "\201D"; /* Вид кавычек для английского языка */ 
+   }
+   q:lang(fr), q:lang(ru) { /* Вид кавычек для русского и французского языка */ 
+    quotes: "\00AB" "\00BB"; 
+   }
+  </style>
 </head>
 <body>
   <h1>Template</h1>
