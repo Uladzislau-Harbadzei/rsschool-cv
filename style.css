@@ -1,9 +1,56 @@
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Italic-VariableFont_wdth,wght.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-VariableFont_wdth,wght.ttf");
+  font-weight: 300;
+}
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 body {
-  font-size: 14px;
+  background-color: rgb(236, 234, 228);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+h1 {
+  color: rgb(14, 2, 18);
+}
+p {
+  color: rgb(9, 9, 9);
+}
+header {
+border: 5px solid rgb(171, 153, 153);
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+};
+}
+main {
+  border: 3px solid rgb(171, 153, 153);
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+}
+footer {
+  border: 2px solid rgb(171, 153, 153);
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  };
 }
